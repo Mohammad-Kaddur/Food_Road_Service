@@ -1,0 +1,454 @@
+/* Start Service */
+
+.service {
+    margin: auto;
+    padding: 50px 0px;
+    height: calc(100vh - 77.25px);
+    display: flex;
+}
+
+.service .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.service .container .serv-left {
+    flex: 1.5;
+    /* padding-right: 50px; */
+}
+
+.service .container .serv-left h1 {
+    font-size: 5.5rem;
+    color: var(--main-text-colot);
+    font-weight: 800;
+    /* line-height: 1.7; */
+}
+
+.service .container .serv-left p {
+    font-size: var(--font-size-paragragh);
+    color: var(--text-color);
+    line-height: 2;
+    font-weight: 700;
+    width: 85%;
+}
+
+.service .container .serv-right {
+    flex: 1;
+}
+
+.service .container .serv-right img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media(max-width:767px) {
+    .service {
+        padding-top: 0px;
+    }
+
+    .service .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service .container .serv-left h1 {
+        font-size: 4.5rem;
+    }
+
+    .service .container .serv-left p {
+        margin: auto;
+        padding-bottom: 40px;
+        font-size: 1.4rem;
+    }
+}
+
+/* End Service */
+.our-service {
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.our-service .container {
+    margin: 30px auto;
+}
+
+.our-service .container .boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.our-service .container .box {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.our-service .container .box .icon {
+    font-size: 5rem;
+    background-color: var(--link-colors);
+    padding: 30px;
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+
+}
+
+.our-service .container .box .icon i {
+    font-size: 5rem;
+    color: var(--price-background-color);
+}
+
+.our-service .container .box h3 {
+    color: var(--main-text-colot);
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin: 30px auto;
+}
+
+.our-service .container .box p {
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.7;
+    padding: 0px 20px;
+}
+
+@media(max-width:767px) {
+    .main-text h2 {
+        font-size: 3.5rem;
+    }
+
+    .our-service .container .box p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Start Section Services */
+
+
+/* End Section Services */
+
+
+
+/* Start Make You Easier */
+
+.easeir-happier {
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.easeir-happier .descr-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.easeir-happier .descr-section h2 {
+    font-size: var(--font-size-h2);
+    color: var(--main-text-colot);
+    font-weight: 800;
+    flex: 1;
+}
+
+.easeir-happier .descr-section p {
+    color: var(--text-color);
+    font-size: var(--font-size-paragragh);
+    line-height: 1.7;
+    font-weight: 700;
+    flex: .9;
+}
+
+/* ################ */
+.easeir-happier .container .advantage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 30px auto;
+}
+
+
+.easeir-happier .container .advantage .advantage-box {
+    text-align: center;
+    max-width: 100%;
+}
+
+.easeir-happier .container .advantage .advantage-box img {
+    width: 100%;
+}
+
+.easeir-happier .container .advantage .advantage-box h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--main-text-colot);
+    margin: 30px auto;
+}
+
+.easeir-happier .container .advantage .advantage-box p {
+    color: var(--text-color);
+    line-height: 1.7;
+    font-size: var(--font-size-paragragh);
+}
+
+@media(max-width:767px) {
+    .easeir-happier .descr-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .easeir-happier .descr-section h2 {
+        font-size: 3.5rem;
+        margin-bottom: 30px;
+    }
+
+    .easeir-happier .descr-section p {
+        font-size: 1.4rem;
+        padding: 20px;
+    }
+
+    .easeir-happier .container .advantage .advantage-box h3 {
+        font-size: 2.3rem;
+    }
+
+    .easeir-happier .container .advantage .advantage-box p {
+        font-size: 1.4rem;
+        padding: 20px;
+    }
+}
+
+
+/* ################ */
+
+
+/* Start Delicious Section */
+.delicious {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    padding: 30px 0px;
+}
+
+.delicious .delicious-left img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+
+
+.delicious .delicious-right {
+    /* flex: 1.1; */
+    padding-left: 50px;
+}
+
+.delicious .delicious-right h2 {
+    font-size: var(--font-size-h2);
+    color: var(--main-text-colot);
+    font-weight: 800;
+
+}
+
+.delicious .delicious-right p {
+    color: var(--text-color);
+    line-height: 2;
+    margin: 20px 0px;
+    font-size: var(--font-size-paragragh);
+
+}
+
+.delicious .delicious-right .delicious-box-info {
+    padding: 50px;
+}
+
+.delicious .delicious-right .delicious-box-info img {
+
+    border-radius: 50%;
+    width: 80px;
+}
+
+.delicious .delicious-right .delicious-box-info p {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.delicious .delicious-right .delicious-box-info .info-person {
+    display: flex;
+    align-items: center;
+}
+
+.delicious .delicious-right .delicious-box-info .info-person h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.delicious .delicious-right .delicious-box-info .info-person .star i {
+    color: var(--second-color);
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+
+@media(max-width:767px) {
+    .delicious {
+        flex-direction: column-reverse;
+    }
+
+    .delicious .delicious-right {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .delicious .delicious-right h2 {
+        font-size: 3.5rem;
+    }
+
+    .delicious .delicious-right p {
+        font-size: 1.5rem;
+    }
+
+    .delicious .delicious-left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .delicious .delicious-right .delicious-box-info p {
+        font-size: 1.5rem;
+    }
+
+    .delicious .delicious-right .delicious-box-info .info-person h4 {
+        font-size: 1.3rem;
+    }
+
+    .delicious .delicious-right .delicious-box-info .info-person .star i {
+        font-size: 1.2rem;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:991px) {
+    .delicious .delicious-right .delicious-box-info {
+        padding: 0px;
+        padding-bottom: 40px;
+        /* padding-left: 50px; */
+        /* text-align: center; */
+    }
+
+    .delicious .delicious-right .delicious-box-info .info-person {
+        justify-content: center;
+    }
+}
+
+/* End Delicious Section */
+
+
+/* Start Question Section */
+.question-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.question-section .question-section-left h2 {
+    font-size: var(--font-size-h2);
+    color: var(--main-text-colot);
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.question-section .question-section-left .slide-question {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--text-color);
+    padding: 30px 0px;
+    margin-bottom: 40px;
+}
+
+/* .active:after {
+    content: "\2796";
+} */
+
+.question-section .question-section-left .slide-question p {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 700;
+    padding: 20px 0px;
+    display: none;
+}
+
+.question-section .question-section-left .slide-question .title-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.question-section .question-section-left .slide-question .title-question h3 {
+    color: var(--link-colors);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.question-section .question-section-left .slide-question .title-question .show-more i {
+    color: var(--link-colors);
+    font-size: 1.8rem;
+}
+
+.question-section .question-section-left .move-question {
+    display: flex;
+    align-items: center;
+}
+
+.question-section .question-section-left .move-question .number {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin: auto 20px;
+    /* margin-top: 30px; */
+}
+
+.question-section .question-section-left .move-question .number span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-text-colot);
+}
+
+.question-section .question-section-left .move-question .previous i {
+    color: var(--link-colors);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.question-section .question-section-left .move-question .next i {
+    color: var(--link-colors);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.question-section .question-section-right img {
+    /* flex: 1.5; */
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    .question-section {
+        flex-direction: column;
+    }
+
+    .question-section .question-section-left h2 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .question-section .question-section-left .slide-question {
+        padding: 20px 0px;
+        margin-bottom: 30px;
+    }
+}
+
+/* End Question Section */
+
+/* End Make You Easier */
